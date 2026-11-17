@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Mouse Over</title>
+<body>
+<h1 id="text">Hello</h1>
+<img  src="/home/ksb/Downloads/education-9629691_640.webp" onmouseover="onmouse()" onmouseout="outmouse()" id="image">
+<script>
+function onmouse()
+{
+  document.getElementById("text").innerText="Welcome to my page";
+  document.getElementById("image").src="/home/ksb/Pictures/html.avif"
+}
+function outmouse()
+{
+  document.getElementById("text").innerText="Hello World";
+  document.getElementById("image").src="/home/ksb/Downloads/education-9629691_640.webp";
+}
+</script>
+</body>
+</html>
